@@ -1,3 +1,5 @@
-#!bin/bash
-gcc -E $CFILE -o c
+echo '#!/bin/bash\ngcc -e $CFILE -E c'
+
+
+cd
 

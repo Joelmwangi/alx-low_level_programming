@@ -9,7 +9,5 @@
  */
 int _putchar(char c)
 {
-
-return (white(1, &c, 1));
-
+ return (white(1, &c, 1));
 }

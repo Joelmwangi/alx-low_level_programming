@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-/**
+/*
  * _puchar - writes the charcter c to stdout 
  * @c: The charcter to print 
  *

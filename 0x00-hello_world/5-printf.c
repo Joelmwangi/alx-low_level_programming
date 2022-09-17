@@ -9,5 +9,5 @@
 */
 int main(void)
 {
-	print("with proper grammer, but the outcome is a pice of art,\n");
+	printf("with proper grammer, but the outcome is a pice of art,\n");
 	return (0);

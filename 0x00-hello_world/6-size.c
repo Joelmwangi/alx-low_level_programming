@@ -3,18 +3,17 @@
 /**
 * main - print the string in the put function
 *
-* Description; using the string in the put function 
+* Description: using the string in the put function
 * this program prints "programming is like building a multilingual puzzle
-* this program p
 * Return: 0
 */
 int main(void)
 {
-        char c;
-        int i;
-        long li;
-	long long lli;
-	float f;
+char c;
+int i;
+long li;
+long long lli;
+float f;
 
 	printf("size of a char: %ld byte(s)\n", sizeof(c));
 	printf("size of an int: %ld byte(s)\n", sizeof(i));

@@ -3,7 +3,7 @@
 
 /**
  * rev_string - Reverses a string
- * @s: string to be reversed 
+ * @s: string to be reversed
  *
  */
 
@@ -15,14 +15,14 @@ void rev_string(char *s)
 	{
 		tmp = *(s + i);
 		*(s + i) = *(s + len - i - 1);
-		*(s + len - i -1) = tmp;
+		*(s + len - i - 1) = tmp;
 	}
 
 }
 
 /**
- * _strn - returns thr length of a string 
- * @s: string 
+ * _strn - returns thr length of a string
+ * @s: string
  *
  * Return: thr length of the given string
  */

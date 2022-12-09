@@ -1,19 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - print if the number is positive, zero, or negative
- *
- * Description: using the main function 
- * this progranm prints "progamming is positive, zero, or negative
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
+int main(void)
+{
+	char c = 'a';
 
- int main(void)
- {
- char ch;
- for (ch = 'a'; ch <= 'z'; ch++)
- {
-	 putchar(ch);
- }
- putchar('\n');
- return (0);
- }
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+	return (0);
+}

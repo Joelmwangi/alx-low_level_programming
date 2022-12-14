@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _abs - function that computers the a bsolute value of an integer
- * @c: is the iny that will use for the argument of the function
- * Return: 0
+ * _abs - return abs value
+ * @n : number to check
+ * Return:0 or 1
  */
-int _abs(int c)
-{     
-	if (c > 0 || c == 0)
-	{
-        return (c);
-	}
-	else
-	return (c * -1);
+
+int _abs(int n)
+{
+
+return (n >= 0 ? n : n * -1);
+
 }
+

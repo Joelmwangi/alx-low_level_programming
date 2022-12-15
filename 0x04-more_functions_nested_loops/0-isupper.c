@@ -1,18 +1,14 @@
 #include "main.h"
 
 /**
- *_isupper - checks whether a  character is a digit or not
- *@c: tested character
- *Return: 1 whether it is, 0 otherwise
+ * _isupper - checks if the character is uppercase
+ * @c:  is the int that will use for the argument of the function
+ * Return: 1 if uppercase character 0 if not
  */
-
 int _isupper(int c)
 {
-	if ((c >= 48) && (c <= 57))
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
-
-	return (0);
-
+	else
+		return (0);
 }
